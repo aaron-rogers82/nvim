@@ -209,6 +209,15 @@ require('telescope').setup {
       },
     },
   },
+  extentions = {
+    project = {
+      base_dirs = {
+        '~/.config/nvim'
+      },
+      hidden_files = true,
+      theme = "dropdown",
+    },
+  },
 }
 
 -- Enable telescope fzf native, if installed
